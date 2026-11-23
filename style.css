@@ -92,7 +92,7 @@ footer a:first-child { margin-left: 0; }
 .guide-hero .eyebrow { margin: 0 0 18px; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--mist); }
 .guide-hero h1 { font-size: clamp(38px, 5.6vw, 66px); line-height: 1.05; letter-spacing: -.025em; margin: 0 0 20px; font-weight: 600; }
 .guide-hero p { font-size: 20px; color: var(--mist); max-width: 32em; margin: 0; }
-.phases { list-style: none; padding: 0; margin: 52px 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; counter-reset: phase; }
+.phases { list-style: none; padding: 0; margin: 52px 0 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; counter-reset: phase; }
 .phases a { display: block; height: 100%; border: 1px solid #333338; border-radius: 20px; padding: 20px 22px; text-decoration: none; counter-increment: phase; }
 .phases a:hover { border-color: #6b6b70; }
 .phases a::before { content: "0" counter(phase); display: block; font-size: 13px; color: var(--slate); margin-bottom: 26px; font-variant-numeric: tabular-nums; }
@@ -128,6 +128,7 @@ figure { margin: 0; }
 figcaption { margin-top: 12px; text-align: center; font-size: 13px; color: var(--slate); }
 .pin { position: absolute; transform: translate(-50%, -50%); width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: #fff; border: 2px solid #fff; box-shadow: 0 2px 8px rgba(11,11,12,.35); font-size: 13px; font-weight: 600; line-height: 1; display: grid; place-items: center; }
 .sheet { margin-top: 56px; }
+.sheet figcaption { margin-top: 14px; }
 .sheet img { display: block; width: 100%; height: auto; border-radius: 26px; border: 1px solid var(--mist); }
 .closing a { color: #fff; }
 
