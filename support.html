@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Support — SYNER</title>
-<meta name="description" content="Help with SYNER: work patterns, attendance, overtime, reports, backups, transfers, sharing with a supervisor and covering for a colleague.">
+<meta name="description" content="Help with SYNER: work patterns, attendance, overtime, holidays, reports, backups, transfers, sharing with a supervisor and covering for a colleague.">
 <link rel="icon" href="img/icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -43,15 +43,28 @@
   <details><summary>How do I record leave?</summary>
     <p>Open the day, choose Leave and pick the last day. Every scheduled day in that period is shown as Leave. Choosing On duty on a day inside the period ends the leave there.</p></details>
 
+  <details><summary>How do I set a holiday for the whole team?</summary>
+    <p>Open Settings, then Calendar Holidays, and add it once: a name, the first day and the last day. Each work pattern says whether its people rest that day or work it as overtime. The <a href="guide.html#holidays">guide</a> shows each screen.</p></details>
+  <details><summary>Do I have to enter the same holiday every year?</summary>
+    <p>No. Switch on Repeats every year and the app lists it on the same dates each year by itself. Leave the switch off for holidays that move, like Eid, and enter those each year. Every year is its own entry, so changing or removing one year leaves the others alone.</p></details>
+  <details><summary>Where did last year's holidays go?</summary>
+    <p>Each finished year folds into one row under Past years in Calendar Holidays. Touch the year to open it. Nothing is deleted.</p></details>
+
+  <h2>Your team</h2>
+  <details><summary>Can I call someone from the app?</summary>
+    <p>Yes. Save a phone number with the person, then open their page from Employees and touch the phone button beside the number. Touch and hold it to copy the number. SYNER does not read your contacts.</p></details>
+  <details><summary>How do I remove someone from my list?</summary>
+    <p>Open the person from Employees and scroll to the bottom. Mark as transferred keeps their history and asks for their last day with the team. Delete employee removes them and their attendance records for good: the app asks you to confirm, it cannot be undone, and new backups will not include them.</p></details>
+
   <h2>Reports</h2>
   <details><summary>How do I share a report?</summary>
     <p>Open Reports, choose the month, and open the group report or one person's report. The share button sends it as a PDF. The monthly totals can also be exported as a CSV file.</p></details>
 
   <h2>Your data</h2>
   <details><summary>Where is my data kept?</summary>
-    <p>Only on your iPhone. SYNER has no account and no server. See the <a href="privacy.html">Privacy Policy</a>.</p></details>
+    <p>On your iPhone. SYNER has no account and no server. If you switch on iCloud backup, a copy is also kept in your own iCloud Drive, which only you can reach. See the <a href="privacy.html">Privacy Policy</a>.</p></details>
   <details><summary>How do I back up my data?</summary>
-    <p>Open Settings, then Backup, and export a backup file. Keep it somewhere safe: a backup file is not encrypted. To bring it back, choose Restore on the same screen.</p></details>
+    <p>Open Settings, then Backup, and export a backup file. Keep it somewhere safe: a backup file is not encrypted. To bring it back, choose Restore on the same screen. On the same screen you can switch on iCloud backup: the app then keeps a copy in the SYNER folder of your own iCloud Drive, once a day after something has changed, and keeps the last 7 days. On a new iPhone signed in to the same Apple Account, those backups are listed there to restore from.</p></details>
   <details><summary>How do I hand my team over to someone else?</summary>
     <p>Open Settings, then Transfer. Choose Hand over everything if someone is taking over your position for good, or Transfer an employee for one person. Send the encrypted file, and give the other person the code separately. They open the file in SYNER, or under Transfer, Receive. A full handover also carries the teams you follow and your link with a supervisor.</p></details>
   <details><summary>I lost the transfer code.</summary>
@@ -88,11 +101,25 @@
     <p>You are still covering a colleague's team. Return it first, then remove it from your iPhone.</p></details>
 
   <!-- The contact box goes here once a support address is chosen. -->
+
+  <div class="get" id="get">
+    <div>
+      <p class="eyebrow">Download</p>
+      <h2>Get SYNER.</h2>
+      <p>Point your iPhone camera at the code, or touch the badge.</p>
+      <div class="stores">
+      <a class="store" href="https://apps.apple.com/us/app/syner/id6838074198"><img src="img/app-store-badge.svg" alt="Download on the App Store" width="144" height="48"></a>
+      <span class="soon" role="img" aria-label="Coming soon to Android"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 18a8 8 0 0 1 16 0z"/><path d="M7.4 11.5 5.7 8.6M16.6 11.5l1.7-2.9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" fill="none"/><circle cx="8.6" cy="14.6" r=".95" fill="#000"/><circle cx="15.4" cy="14.6" r=".95" fill="#000"/></svg><span><small>Coming soon to</small><b>Android</b></span></span>
+    </div>
+    </div>
+    <a class="qr" href="https://apps.apple.com/us/app/syner/id6838074198"><img src="img/qr-app-store.svg" alt="QR code that opens SYNER on the App Store" width="168" height="168" loading="lazy"><span>Scan with your iPhone camera</span></a>
+  </div>
 </div></main>
 
 <footer><div class="wrap">
   <span>© 2026 SYNER · One workforce. One system.</span>
   <span><a href="guide.html">Guide</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a></span>
+  <p class="legal">Apple, the Apple logo, iPhone and iCloud are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. Android is a trademark of Google LLC. The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.</p>
 </div></footer>
 </body>
 </html>
