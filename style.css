@@ -176,3 +176,4 @@ figcaption { margin-top: 12px; text-align: center; font-size: 13px; color: var(-
   .qr { text-align: left; }
   .qr img, .page .get .qr img { width: 148px; height: 148px; margin: 0; }
 }
+.legal a { margin: 0; color: inherit; text-decoration: underline; }
